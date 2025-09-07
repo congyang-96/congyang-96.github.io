@@ -1,0 +1,233 @@
+about:
+  name: "Cong Yang"
+  role: "Ph.D. Candidate"
+  school: "UBC, Vancouver, BC, Canada <br> Sauder School of Business"
+  phone: "408-497-4379"
+  email: "cong.yang@sauder.ubc.ca"
+  links:
+    - name: "Google Scholar"
+      url: "https://scholar.google.ca/citations?user=zdBst_QAAAAJ&hl=en&oi=sra"
+    - name: "CV"
+      url: "file/cv.pdf"
+
+  about_me: |
+    
+    I’m currently a Ph.D. candidate in Management Science at the Sauder School of Business, University of British Columbia. My research focuses on decision making under uncertainty, with applications spanning partially observable Markov decision processes, inventory control, and healthcare operations. I obtained my M.S. and B.S. in Industrial Engineering and Operations Research from UC Berkeley.
+    
+    This site is under development — stay tuned for updates.
+    
+    **If you are interested in collaborating or learning more about my work, please don’t hesitate to reach out.**
+    
+  education:
+
+    - shcool: "University of British Columbia"
+      major: "Ph.D., Candidate in Management Science (Expected 2026)"
+      major_desc: |
+        - Advisors: Woonghee Tim Huh, Steven M. Shechter, Hao Zhang
+        - Dissertation Area: Decision Making under Uncertainty
+      location: "Vancouver, BC"
+
+    - shcool: "University of California, Berkeley"
+      major: "Master of Science, Industrial Engineering and Operations Research (2019)"
+      major_desc: ""
+      location: "Berkeley, CA"
+
+
+    - shcool: "University of California, Berkeley"
+      major: "Bachelor of Science, Industrial Engineering and Operations Research (2018)"
+      major_desc: ""
+      location: "Berkeley, CA"
+
+
+  research_interests:
+    - "Partially Observable Markov Dynamic Programming"
+    - " Inventory Control"
+    - "Healthcare Operations Research"
+    - "Stochastic Optimization"
+    - "Learning Algorithm"
+
+
+publications:
+  
+  partially_observable_markov_dynamic_programming:
+    - author: "__Cong Yang__* and Hao Zhang"
+      title: "Optimal Control of a Partially Observable Markov Deterioration Process"
+      journal: "Management Science"
+      status: "Major Revision in"
+      number: 1
+      link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4843143"
+
+  optimization_and_learning:
+    - author: "Yoon Lee, Yonatan Mintz, Anil Aswani, Zuo-Jun Max Shen, and __Cong Yang__"
+      title: "Optimal Policy for Inventory Management with Periodic and Controlled Resets"
+      journal: "Manufacturing & Service Operations Management"
+      year: 2025
+      number: 2
+      link: "https://pubsonline.informs.org/doi/abs/10.1287/msom.2022.0318"
+
+    - author: "__Cong Yang__* and Woonghee Tim Huh"
+      title: "A Nonparametric Learning Algorithm for a Stochastic Multi-echelon Inventory Problem"
+      journal: "Production and Operations Management"
+      year: 2024
+      number: 3
+      link: "https://journals.sagepub.com/doi/abs/10.1177/10591478241231858"
+
+    - author: "Harry Zhang, __Cong Yang__*, Woonghee Tim Huh, Sergii Kravchenko"
+      title: "Optimal Control for Multi-Product Additive Manufacturing Systems"
+      status: "Manuscript in preparation"
+      number: 4
+      link: ""
+
+  healthcare_operations_research:
+    - author: "Liangyuan Na, __Cong Yang__*, Chi-Cheng Lo, et al"
+      title: "Feasibility of reidentifying individuals in large national physical activity data sets from which protected health information has been removed with use of machine learning"
+      journal: "JAMA Network Open"
+      year: 2018
+      impact_factor: 10.5
+      note: "Finalists and Honorable Mention at INFORMS Operations Research Prize, 2019"
+      number: 5
+      link: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2719130"
+
+    - author: "__Cong Yang__*, Woonghee Tim Huh, Steven Shechter, James Lan"
+      title: "The Impact of Organ Blood Type Conversion on Kidney Paired Donation: A Simulation and Optimization Study"
+      journal: "American Journal of Transplantation"
+      status: "To be submitted to"
+      impact_factor: 8.2
+      number: 6
+      link: ""
+
+
+
+awards:
+
+  - title: "The University of British Columbia Affiliated Fellowships Doctoral Program"
+    year: "2023"
+    desc0: "This fellowship is awarded annually to approximately 50 doctoral students pursuing full-time research-based degrees at the university of British Columbia in recognition of their outstanding academic record, exceptional background and promising future."
+    desc: ""
+
+  - title: "Shelby L. Brumelle Memorial Graduate Scholarship Competition, UBC"
+    year: "2023 & 2025"
+    desc: ""
+
+  - title: "President’s Academic Excellence Initiative PhD Award, UBC"
+    year: "2021-2025"
+    desc: ""
+
+  - title: "Dean Earle D MacPhee Memorial Graduate Scholarship, UBC"
+    year: "2021-2025"
+    desc: ""
+
+  - title: "International Tuition Award, UBC"
+    year: "2021-2025"
+    desc: ""
+
+  - title: "Finalists & Honorable Mention at INFORMS Undergraduate Student Operations Research Prize"
+    year: "2019"
+    desc: ""
+
+
+
+experience:
+
+  - title: "Introduction to Quantitative Decision Making, UBC, COMM 190"
+    desc: |
+      Undergraduate, 40-50 students
+      
+      Instructor, Summer 2025
+
+
+  - title: "Decision Analysis Under Uncertainty, UBC, BACS 517"
+    desc: |
+      Graduate (Master of Business Analytics), 80-100 students
+      
+      Teaching Assistant, Winter 2022-2025
+
+
+  - title: "Analyzing and Modelling, UBC, BACS 506"
+    desc: |
+      Graduate (Master of Business Analytics), 80-100 students
+  
+      Teaching Assistant, Winter 2022-2025
+
+
+  - title: "Introduction to Quantitative Decision Making, UBC, COMM 190 (COMM 290)"
+    desc: |
+      Undergraduate, 800-1000 students
+      
+      Teaching Assistant, Winter 2021-2025
+
+  - title: "Process Fundamentals, UBC, BACS 500"
+    desc: | 
+      Graduate (Master of Business Analytics), 30-50 students
+      
+      Teaching Assistant, Winter 2022
+
+  - title: "Optimization Analytics, UC Berkeley, IEOR 240"
+    desc: |
+      Graduate (Master of Engineering), 80-100 students
+      
+      Graduate Student Instructor, Fall 2019
+
+  - title: "Introduction to Machine Learning and Data Analytics, UC Berkeley, IEOR 142"
+    desc: |
+      Undergraduate, 80-100 students
+      
+      Graduate Student Instructor, Fall 2019
+
+  - title: "Introduction to Statistics, UC Berkeley, STAT 2"
+    desc: |
+      Undergraduate, 30-50 students
+      
+      Graduate Student Instructor, Summer 2019
+
+
+
+
+
+service:
+  desc: "**Reviewer**: Operations Research"
+
+
+talks: |
+  _Optimal Control of a Partially Observable Markov Deterioration Process_
+    - INFORMS 2024 Annual Meeting, Seattle, WA, United States
+  
+  _A Nonparametric Learning Algorithm for a Stochastic Multi-echelon Inventory Problem_
+    - INFORMS 2023 Annual Meeting, Phoenix, AZ, United States
+  
+  _The Impact of Organ Blood Type Conversion on Kidney Paired Donation: A Simulation and Optimization Study_
+    - INFORMS 2023 Healthcare Conference, Toronto, ON, Canada
+  
+  _Feasibility of reidentifying individuals in large national physical activity data sets from which protected health  information has been removed with use of machine learning_
+    - INFORMS 2019 Annual Meeting, Seattle, WA, United States
+    - INFORMS 2019 Healthcare Conference, Boston, MA, United States
+
+
+skills: |
+  - **Languages |** _Fluent:_    English; _Native:_ Mandarin, Cantonese
+  - **Programming |** _Proficient:_    Python, Matlab, R; _Prior experience:_ SQL, Julia, C++
+  - **Software Tools |** TensorFlow, Gurobi, CAD
+  
+  
+
+references: |
+  **Prof. Woonghee Tim Huh**
+  
+  Sauder School of Business  
+  University of British Columbia  
+  Tim.huh@sauder.ubc.ca
+  
+  
+  
+  **Prof. Steven M. Shechter**  
+  Sauder School of Business  
+  University of British Columbia  
+  steven.shechter@sauder.ubc.ca
+  
+  
+  
+  
+  **Prof. Hao Zhang**  
+  Sauder School of Business  
+  University of British Columbia  
+  hao.zhang@sauder.ubc.ca

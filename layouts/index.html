@@ -1,0 +1,287 @@
+{{ define "main" }}
+
+{{ $about := site.Data.cy.about }}
+{{ $publications := site.Data.cy.publications }}
+{{ $awards := site.Data.cy.awards }}
+{{ $experience := site.Data.cy.experience }}
+{{ $service := site.Data.cy.service }}
+{{ $talks := site.Data.cy.talks }}
+{{ $skills := site.Data.cy.skills }}
+{{ $references := site.Data.cy.references }}
+
+
+
+<div class="container">
+  <div class="row profile">
+    <img src='{{"images/avatar.png" | relURL }}' alt="{{$about.name}}">
+    <div class="profile-text">
+      <h1 style="font-size: 3em; margin-bottom: 0; border-bottom: none; color: #3498DB;">{{$about.name}}</h1>
+      <h5> {{$about.role}}
+        <br>{{$about.school | safeHTML }}
+      </h5>
+      <p><b>Email</b>: {{$about.email | markdownify }}</p>
+      <p class="about-p-link">
+        {{ range $about.links}}
+        <a href="{{.url}}" style="color: #3498DB;">{{.name}}</a> <span class="sep">|</span>
+        {{ end }}
+
+      </p>
+    </div>
+  </div>
+
+  <div class="row about">
+    <h2>About Me</h2>
+    <div>
+      {{$about.about_me | markdownify  | emojify }}
+    </div>
+
+  </div>
+
+
+  <div class="row publications papers">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+
+    <h4>Papers</h4>
+    <p style="font-size: 1.1em; text-align: center;"><i style="color: #d62828;">* (star) indicates first or lead PhD author. </i></p>
+    <p style="font-size: 0.9em; text-align: center;">For transparency, all co-first authors, or authors with higher orders will be displayed</p>
+    <p style="font-size: 0.9em; text-align: center;">IF indicates 5-year/latest impact factor for medical journals</p>
+    <p>&nbsp;</p>
+
+
+    
+    <h5>Partially Observable Markov Dynamic Programming</h5>
+    <ul>
+      {{range  $index, $item := $publications.partially_observable_markov_dynamic_programming}}
+      <li>
+
+        {{/*title*/}}
+        {{with $item.link}}<a href="{{.}}">{{end}}
+        {{$item.title | markdownify  | emojify }}
+        {{with $item.link}}</a>{{end}}
+        <br>
+
+        {{/*author*/}}
+        <span>{{$item.author | markdownify  | emojify }}</span>
+        <br>
+
+
+        {{/*status*/}}
+        {{with $item.status}}
+        <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+        {{/*journal*/}}
+        {{with $item.journal}}
+        <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+        {{/*impact_factor*/}}
+        {{with $item.impact_factor}}
+        <span class="journal">(IF: {{ . | markdownify  | emojify }})</span>
+        {{end}}
+
+        {{/*year*/}}
+        {{with $item.year}}
+        ,  <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+
+
+      </li>
+      {{end}}
+    </ul>
+
+
+
+
+
+
+    <h5>Optimization and Learning</h5>
+    <ul>
+      {{range  $index, $item := $publications.optimization_and_learning}}
+      <li>
+
+        {{/*title*/}}
+        {{with $item.link}}<a href="{{.}}">{{end}}
+        {{$item.title | markdownify  | emojify }}
+        {{with $item.link}}</a>{{end}}
+        <br>
+
+        {{/*author*/}}
+        <span>{{$item.author | markdownify  | emojify }}</span>
+        <br>
+
+
+        {{/*status*/}}
+        {{with $item.status}}
+        <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+        {{/*journal*/}}
+        {{with $item.journal}}
+        <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+        {{/*impact_factor*/}}
+        {{with $item.impact_factor}}
+        <span class="journal">(IF: {{ . | markdownify  | emojify }})</span>
+        {{end}}
+
+        {{/*year*/}}
+        {{with $item.year}}
+        ,  <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+
+
+      </li>
+      {{end}}
+    </ul>
+
+
+
+
+    <h5>Healthcare Operations Research:</h5>
+    <ul>
+      {{range  $index, $item := $publications.healthcare_operations_research}}
+      <li>
+
+        {{/*title*/}}
+        {{with $item.link}}<a href="{{.}}">{{end}}
+        {{$item.title | markdownify  | emojify }}
+        {{with $item.link}}</a>{{end}}
+        <br>
+
+        {{/*author*/}}
+        <span>{{$item.author | markdownify  | emojify }}</span>
+        <br>
+
+
+        {{/*status*/}}
+        {{with $item.status}}
+        <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+        {{/*journal*/}}
+        {{with $item.journal}}
+        <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+        {{/*impact_factor*/}}
+        {{with $item.impact_factor}}
+        <span class="journal">(IF: {{ . | markdownify  | emojify }})</span>
+        {{end}}
+
+        {{/*year*/}}
+        {{with $item.year}}
+        ,  <span class="journal">{{ . | markdownify  | emojify }}</span>
+        {{end}}
+
+
+
+      </li>
+      {{end}}
+    </ul>
+
+
+
+
+  </div>
+
+
+  <div class="row publications awards">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+    <h4>Awards</h4>
+
+    <ul>
+      {{range  $index, $item := $awards}}
+      <li>
+        <span class="awards-title">{{ $item.title | markdownify  | emojify }}, {{ $item.year | markdownify  | emojify }} </span>
+        {{/*desc*/}}
+        {{with $item.desc}}
+        <div class="awards-desc">{{ . | markdownify  | emojify }}</div>
+        {{end}}
+
+      </li>
+      {{end}}
+    </ul>
+
+
+  </div>
+
+
+  <div class="row publications awards experience">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+    <h4>Teaching Experience and Research Mentorship</h4>
+
+    <ul>
+      {{range  $index, $item := $experience}}
+      <li>
+        <span class="awards-title">{{ $item.title | markdownify  | emojify }} </span>
+        {{/*desc*/}}
+        {{with $item.desc}}
+        <div class="awards-desc">{{ . | markdownify  | emojify }}</div>
+        {{end}}
+
+      </li>
+      {{end}}
+    </ul>
+
+
+  </div>
+
+
+  <div class="row publications service">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+    <h4>Service and Outreach</h4>
+
+    {{with $service.desc}}
+    <div class="service-desc">{{ . | markdownify  | emojify }}</div>
+    {{end}}
+  </div>
+
+
+  <div class="row publications talks">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+    <h4>Talks</h4>
+
+    {{with $talks}}
+    <div class="talks-desc">{{ . | markdownify  | emojify }}</div>
+    {{end}}
+  </div>
+
+
+
+  <div class="row publications skills">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+    <h4>Skills</h4>
+
+    {{with $skills}}
+    <div class="skills-desc">{{ . | markdownify  | emojify }}</div>
+    {{end}}
+  </div>
+
+
+
+
+
+  <div class="row publications references">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+    <h4>References</h4>
+
+    {{with $references}}
+    <div class="references-desc">{{ . | markdownify  | emojify }}</div>
+    {{end}}
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+{{ end }}
