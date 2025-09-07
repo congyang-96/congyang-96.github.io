@@ -50,7 +50,7 @@ about:
 publications:
   
   partially_observable_markov_dynamic_programming:
-    - author: "__Cong Yang__* and Hao Zhang"
+    - author: "__Cong Yang__ and Hao Zhang"
       title: "Optimal Control of a Partially Observable Markov Deterioration Process"
       journal: "Management Science"
       status: "Major Revision in"
@@ -65,21 +65,21 @@ publications:
       number: 2
       link: "https://pubsonline.informs.org/doi/abs/10.1287/msom.2022.0318"
 
-    - author: "__Cong Yang__* and Woonghee Tim Huh"
+    - author: "__Cong Yang__ and Woonghee Tim Huh"
       title: "A Nonparametric Learning Algorithm for a Stochastic Multi-echelon Inventory Problem"
       journal: "Production and Operations Management"
       year: 2024
       number: 3
       link: "https://journals.sagepub.com/doi/abs/10.1177/10591478241231858"
 
-    - author: "Harry Zhang, __Cong Yang__*, Woonghee Tim Huh, Sergii Kravchenko"
+    - author: "Harry Zhang, __Cong Yang__, Woonghee Tim Huh, Sergii Kravchenko"
       title: "Optimal Control for Multi-Product Additive Manufacturing Systems"
       status: "Manuscript in preparation"
       number: 4
       link: ""
 
   healthcare_operations_research:
-    - author: "Liangyuan Na, __Cong Yang__*, Chi-Cheng Lo, et al"
+    - author: "Liangyuan Na, __Cong Yang__, Chi-Cheng Lo, et al"
       title: "Feasibility of reidentifying individuals in large national physical activity data sets from which protected health information has been removed with use of machine learning"
       journal: "JAMA Network Open"
       year: 2018
@@ -88,7 +88,7 @@ publications:
       number: 5
       link: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2719130"
 
-    - author: "__Cong Yang__*, Woonghee Tim Huh, Steven Shechter, James Lan"
+    - author: "__Cong Yang__, Woonghee Tim Huh, Steven Shechter, James Lan"
       title: "The Impact of Organ Blood Type Conversion on Kidney Paired Donation: A Simulation and Optimization Study"
       journal: "American Journal of Transplantation"
       status: "To be submitted to"
