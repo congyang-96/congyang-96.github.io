@@ -21,20 +21,20 @@ about:
   education:
 
     - shcool: "University of British Columbia"
-      major: "Ph.D., Candidate in Management Science (Expected 2026)"
+      major: "Ph.D., Candidate in Management Science"
       major_desc: |
         - Advisors: Woonghee Tim Huh, Steven M. Shechter, Hao Zhang
         - Dissertation Area: Decision Making under Uncertainty
       location: "Vancouver, BC"
 
     - shcool: "University of California, Berkeley"
-      major: "Master of Science, Industrial Engineering and Operations Research (2019)"
+      major: "Master of Science, Industrial Engineering and Operations Research"
       major_desc: ""
       location: "Berkeley, CA"
 
 
     - shcool: "University of California, Berkeley"
-      major: "Bachelor of Science, Industrial Engineering and Operations Research (2018)"
+      major: "Bachelor of Science, Industrial Engineering and Operations Research"
       major_desc: ""
       location: "Berkeley, CA"
 
@@ -183,9 +183,6 @@ experience:
 
 
 
-
-service:
-  desc: "**Reviewer**: Operations Research"
 
 
 talks: |
