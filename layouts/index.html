@@ -258,17 +258,6 @@
     {{end}}
   </div>
 
-  <div class="row publications skills">
-    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
-    <h4>Skills</h4>
-
-    {{with $skills}}
-    <div class="skills-desc">{{ . | markdownify  | emojify }}</div>
-    {{end}}
-  </div>
-
-
-
 
 
   <div class="row publications references">
@@ -284,10 +273,16 @@
 
 
 
+    <div class="row publications skills">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+    <h4>Skills</h4>
 
+    {{with $skills}}
+    <div class="skills-desc">{{ . | markdownify  | emojify }}</div>
+    {{end}}
+    </div>
 
 
 </div>
-
 
 {{ end }}
