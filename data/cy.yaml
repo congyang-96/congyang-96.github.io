@@ -129,57 +129,38 @@ awards:
 
 experience:
 
-  - title: "Introduction to Quantitative Decision Making, UBC, COMM 190"
+  - title: "COMM 190: Introduction to Quantitative Decision Making (Undergraduate), UBC "
     desc: |
-      Undergraduate, 40-50 students
-      
       Instructor, Summer 2025
-
-
-  - title: "Decision Analysis Under Uncertainty, UBC, BACS 517"
-    desc: |
-      Graduate (Master of Business Analytics), 80-100 students
       
+  - title: "IEOR 240: Optimization Analytics (Graduate, Master of Engineering), UC Berkeley "
+    desc: |
+      Graduate Student Instructor, Fall 2019
+      
+  - title: "STAT 2: Introduction to Statistics (Undergraduate), UC Berkeley "
+    desc: |
+      Graduate Student Instructor, Summer 2019
+      
+  - title: "IEOR 142: Introduction to Machine Learning and Data Analytics (Undergraduate), UC Berkeley"
+    desc: |
+      Graduate Student Instructor, Fall 2019
+
+  - title: "BAMS 517: Decision Analysis Under Uncertainty (Graduate, Master of Business Analytics), UBC"
+    desc: |
+      Teaching Assistant, Winter 2022-2025
+
+  - title: "BABS 506: Analyzing and Modelling (Graduate, Master of Business Analytics), UBC"
+    desc: |
       Teaching Assistant, Winter 2022-2025
 
 
-  - title: "Analyzing and Modelling, UBC, BACS 506"
+  - title: "COMM 190 (COMM 290): Introduction to Quantitative Decision Making (Undergraduate), UBC"
     desc: |
-      Graduate (Master of Business Analytics), 80-100 students
-  
-      Teaching Assistant, Winter 2022-2025
-
-
-  - title: "Introduction to Quantitative Decision Making, UBC, COMM 190 (COMM 290)"
-    desc: |
-      Undergraduate, 800-1000 students
-      
       Teaching Assistant, Winter 2021-2025
 
-  - title: "Process Fundamentals, UBC, BACS 500"
+  - title: "BAMS 500: Process Fundamentals (Graduate, Master of Business Analytics), UBC, "
     desc: | 
-      Graduate (Master of Business Analytics), 30-50 students
-      
       Teaching Assistant, Winter 2022
-
-  - title: "Optimization Analytics, UC Berkeley, IEOR 240"
-    desc: |
-      Graduate (Master of Engineering), 80-100 students
-      
-      Graduate Student Instructor, Fall 2019
-
-  - title: "Introduction to Machine Learning and Data Analytics, UC Berkeley, IEOR 142"
-    desc: |
-      Undergraduate, 80-100 students
-      
-      Graduate Student Instructor, Fall 2019
-
-  - title: "Introduction to Statistics, UC Berkeley, STAT 2"
-    desc: |
-      Undergraduate, 30-50 students
-      
-      Graduate Student Instructor, Summer 2019
-
 
 
 
