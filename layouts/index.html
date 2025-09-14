@@ -181,33 +181,7 @@
       </li>
       {{end}}
     </ul>
-
-
-
-
   </div>
-
-
-  <div class="row publications awards">
-    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
-    <h4>Awards</h4>
-
-    <ul>
-      {{range  $index, $item := $awards}}
-      <li>
-        <span class="awards-title">{{ $item.title | markdownify  | emojify }}, {{ $item.year | markdownify  | emojify }} </span>
-        {{/*desc*/}}
-        {{with $item.desc}}
-        <div class="awards-desc">{{ . | markdownify  | emojify }}</div>
-        {{end}}
-
-      </li>
-      {{end}}
-    </ul>
-
-
-  </div>
-
 
   <div class="row publications awards experience">
     <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
@@ -226,6 +200,27 @@
       {{end}}
     </ul>
   </div>
+  
+  <div class="row publications awards">
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
+    <h4>Awards</h4>
+
+    <ul>
+      {{range  $index, $item := $awards}}
+      <li>
+        <span class="awards-title">{{ $item.title | markdownify  | emojify }}, {{ $item.year | markdownify  | emojify }} </span>
+        {{/*desc*/}}
+        {{with $item.desc}}
+        <div class="awards-desc">{{ . | markdownify  | emojify }}</div>
+        {{end}}
+
+      </li>
+      {{end}}
+    </ul>
+  </div>
+
+
+
 
 
   {{/*
