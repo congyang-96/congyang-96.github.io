@@ -181,15 +181,8 @@ talks: |
   _Feasibility of reidentifying individuals in large national physical activity data sets from which protected health  information has been removed with use of machine learning_
     - INFORMS 2019 Annual Meeting, Seattle, WA, United States
     - INFORMS 2019 Healthcare Conference, Boston, MA, United States
-
-
-skills: |
-  - **Languages |** _Fluent:_    English; _Native:_ Mandarin, Cantonese
-  - **Programming |** _Proficient:_    Python, Matlab, R; _Prior experience:_ SQL, Julia, C++
-  - **Software Tools |** TensorFlow, Gurobi, CAD
   
   
-
 references: |
   **Prof. Woonghee Tim Huh**
   
@@ -203,6 +196,11 @@ references: |
   Sauder School of Business  
   University of British Columbia  
   steven.shechter@sauder.ubc.ca
+
+skills: |
+  - **Languages |** _Fluent:_    English; _Native:_ Mandarin, Cantonese
+  - **Programming |** _Proficient:_    Python, Matlab, R; _Prior experience:_ SQL, Julia, C++
+  - **Software Tools |** TensorFlow, Gurobi, CAD SolidWorks
   
   
   
